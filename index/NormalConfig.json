@@ -1,0 +1,734 @@
+{
+  "Services": [
+    {
+      "Url": "https://knowledgebaseapi.jabra.com/v1/group/1222",
+      "Endpoints": [
+        
+        {
+          "Method": "GET",
+          "Path": "/frequentlyaskedquestions",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "FAQs",
+          "Uri": "https://www.jabra.com/faq/%[id]&mod=%[mymodel]",
+          "ClickableUri": "https://www.jabra.com/faq/%[id]",
+          "Title": "%[question]",
+          "Body": "<html><body><h2>%[question]</h2><p>%[answer]</p></body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Elite 65t",
+            "mygroup": "1222",
+            "fileType": "FAQ",
+            "documentType": "FAQs",
+            "mytypes": "%[types]",
+            "myreqsoftware": "%[requiredSoftware[*].text"
+          }
+        },
+        {
+          "Method": "GET",
+          "Path": "/videos",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "Videos",
+          "Uri": "https://www.youtube.com/watch?v=%[videoId]&mod=%[mymodel]",
+          "ClickableUri": "https://www.youtube.com/watch?v=%[videoId]",
+          "Title": "%[headline]",
+          "Body": "<html><body><h2>%[headline]</h2><p>%[description]</p></body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Elite 65t",
+            "mygroup": "1222",
+            "fileType": "YouTubeVideo",
+            "documentType": "Video",
+            "ytdescription": "%[description]",
+            "ytvideoid": "%[videoId]",
+            "ytthumbnailurl": "https://i.ytimg.com/vi/%[videoId]/mqdefault.jpg",
+            "ytembedplayerhtml": "<iframe width='480' height='270' src='//www.youtube.com/embed/%[videoId]' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          }
+        },
+        {
+          "Method": "GET",
+          "Path": "/bluetoothpairingguides",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "Pairingguides",
+          "Uri": "https://www.jabra.com/pairing/%[platform.label]&mod=%[mymodel]",
+          "ClickableUri": "https://www.jabra.com/pairing/%[platform.label]",
+          "Title": "Pairing guide %[mymodel] - %[platform.label]",
+          "Body": "<html><body><h1>Pairing guide for %[mymodel]</h1><h2><img src='https://www.jabra.com%[platform.icon]' style='margin-right:15px'/>%[platform.label]</h1>          <h3>%[platform.note]</h3>          <hr>          <h2>%[steps[0].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[0].image]' width=100px/><br>%[steps[0].title]<br>          <div >%[steps[0].description]</div></p>          <hr>          <h2>%[steps[1].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[1].image]' width=100px/><br>%[steps[1].title]<br>          <div>%[steps[1].description]</div></p>          <hr>          <h2>%[steps[2].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[2].image]' width=100px/><br>%[steps[2].title]<br>          <div >%[steps[2].description]</div></p>          <hr>          <h2>%[steps[3].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[3].image]' width=100px/><br>%[steps[3].title]<br>          <div >%[steps[3].description]</div></p>  <br><br><br>%[steps[*].title] %[steps[*].description]        </body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Elite 65t",
+            "mygroup": "1222",
+            "fileType": "Pairing Guide",
+            "documentType": "Pairing Guide",
+            "myplatform": "%[platform.label]"
+          }
+        }
+      ]
+    },
+    {
+      "Url": "https://knowledgebaseapi.jabra.com/v1/group/1489",
+      "Endpoints": [
+        
+        {
+          "Method": "GET",
+          "Path": "/frequentlyaskedquestions",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "FAQs",
+          "Uri": "https://www.jabra.com/faq/%[id]&mod=%[mymodel]",
+          "ClickableUri": "https://www.jabra.com/faq/%[id]",
+          "Title": "%[question]",
+          "Body": "<html><body><h2>%[question]</h2><p>%[answer]</p></body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Elite 75t",
+            "mygroup": "1489",
+            "fileType": "FAQ",
+            "documentType": "FAQs",
+            "mytypes": "%[types]",
+            "myreqsoftware": "%[requiredSoftware[*].text"
+          }
+        },
+        {
+          "Method": "GET",
+          "Path": "/videos",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "Videos",
+          "Uri": "https://www.youtube.com/watch?v=%[videoId]&mod=%[mymodel]",
+          "ClickableUri": "https://www.youtube.com/watch?v=%[videoId]",
+          "Title": "%[headline]",
+          "Body": "<html><body><h2>%[headline]</h2><p>%[description]</p></body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Elite 75t",
+            "mygroup": "1489",
+            "fileType": "YouTubeVideo",
+            "documentType": "Video",
+            "ytdescription": "%[description]",
+            "ytvideoid": "%[videoId]",
+            "ytthumbnailurl": "https://i.ytimg.com/vi/%[videoId]/mqdefault.jpg",
+            "ytembedplayerhtml": "<iframe width='480' height='270' src='//www.youtube.com/embed/%[videoId]' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          }
+        },
+        {
+          "Method": "GET",
+          "Path": "/bluetoothpairingguides",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "Pairingguides",
+          "Uri": "https://www.jabra.com/pairing/%[platform.label]&mod=%[mymodel]",
+          "ClickableUri": "https://www.jabra.com/pairing/%[platform.label]",
+          "Title": "Pairing guide %[mymodel] - %[platform.label]",
+          "Body": "<html><body><h1>Pairing guide for %[mymodel]</h1><h2><img src='https://www.jabra.com%[platform.icon]' style='margin-right:15px'/>%[platform.label]</h1>          <h3>%[platform.note]</h3>          <hr>          <h2>%[steps[0].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[0].image]' width=100px/><br>%[steps[0].title]<br>          <div >%[steps[0].description]</div></p>          <hr>          <h2>%[steps[1].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[1].image]' width=100px/><br>%[steps[1].title]<br>          <div>%[steps[1].description]</div></p>          <hr>          <h2>%[steps[2].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[2].image]' width=100px/><br>%[steps[2].title]<br>          <div >%[steps[2].description]</div></p>          <hr>          <h2>%[steps[3].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[3].image]' width=100px/><br>%[steps[3].title]<br>          <div >%[steps[3].description]</div></p>  <br><br><br>%[steps[*].title] %[steps[*].description]        </body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Elite 75t",
+            "mygroup": "1489",
+            "fileType": "Pairing Guide",
+            "documentType": "Pairing Guide",
+            "myplatform": "%[platform.label]"
+          }
+        }
+      ]
+    },
+    {
+      "Url": "https://knowledgebaseapi.jabra.com/v1/group/1515",
+      "Endpoints": [
+        
+        {
+          "Method": "GET",
+          "Path": "/frequentlyaskedquestions",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "FAQs",
+          "Uri": "https://www.jabra.com/faq/%[id]&mod=%[mymodel]",
+          "ClickableUri": "https://www.jabra.com/faq/%[id]",
+          "Title": "%[question]",
+          "Body": "<html><body><h2>%[question]</h2><p>%[answer]</p></body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Elite Active 75t",
+            "mygroup": "1515",
+            "fileType": "FAQ",
+            "documentType": "FAQs",
+            "mytypes": "%[types]",
+            "myreqsoftware": "%[requiredSoftware[*].text"
+          }
+        },
+        {
+          "Method": "GET",
+          "Path": "/videos",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "Videos",
+          "Uri": "https://www.youtube.com/watch?v=%[videoId]&mod=%[mymodel]",
+          "ClickableUri": "https://www.youtube.com/watch?v=%[videoId]",
+          "Title": "%[headline]",
+          "Body": "<html><body><h2>%[headline]</h2><p>%[description]</p></body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Elite Active 75t",
+            "mygroup": "1515",
+            "fileType": "YouTubeVideo",
+            "documentType": "Video",
+            "ytdescription": "%[description]",
+            "ytvideoid": "%[videoId]",
+            "ytthumbnailurl": "https://i.ytimg.com/vi/%[videoId]/mqdefault.jpg",
+            "ytembedplayerhtml": "<iframe width='480' height='270' src='//www.youtube.com/embed/%[videoId]' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          }
+        },
+        {
+          "Method": "GET",
+          "Path": "/bluetoothpairingguides",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "Pairingguides",
+          "Uri": "https://www.jabra.com/pairing/%[platform.label]&mod=%[mymodel]",
+          "ClickableUri": "https://www.jabra.com/pairing/%[platform.label]",
+          "Title": "Pairing guide %[mymodel] - %[platform.label]",
+          "Body": "<html><body><h1>Pairing guide for %[mymodel]</h1><h2><img src='https://www.jabra.com%[platform.icon]' style='margin-right:15px'/>%[platform.label]</h1>          <h3>%[platform.note]</h3>          <hr>          <h2>%[steps[0].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[0].image]' width=100px/><br>%[steps[0].title]<br>          <div >%[steps[0].description]</div></p>          <hr>          <h2>%[steps[1].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[1].image]' width=100px/><br>%[steps[1].title]<br>          <div>%[steps[1].description]</div></p>          <hr>          <h2>%[steps[2].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[2].image]' width=100px/><br>%[steps[2].title]<br>          <div >%[steps[2].description]</div></p>          <hr>          <h2>%[steps[3].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[3].image]' width=100px/><br>%[steps[3].title]<br>          <div >%[steps[3].description]</div></p>  <br><br><br>%[steps[*].title] %[steps[*].description]        </body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Elite Active 75t",
+            "mygroup": "1515",
+            "fileType": "Pairing Guide",
+            "documentType": "Pairing Guide",
+            "myplatform": "%[platform.label]"
+          }
+        }
+      ]
+    },
+    {
+      "Url": "https://knowledgebaseapi.jabra.com/v1/group/1391",
+      "Endpoints": [
+        
+        {
+          "Method": "GET",
+          "Path": "/frequentlyaskedquestions",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "FAQs",
+          "Uri": "https://www.jabra.com/faq/%[id]&mod=%[mymodel]",
+          "ClickableUri": "https://www.jabra.com/faq/%[id]",
+          "Title": "%[question]",
+          "Body": "<html><body><h2>%[question]</h2><p>%[answer]</p></body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Elite 85h",
+            "mygroup": "1391",
+            "fileType": "FAQ",
+            "documentType": "FAQs",
+            "mytypes": "%[types]",
+            "myreqsoftware": "%[requiredSoftware[*].text"
+          }
+        },
+        {
+          "Method": "GET",
+          "Path": "/videos",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "Videos",
+          "Uri": "https://www.youtube.com/watch?v=%[videoId]&mod=%[mymodel]",
+          "ClickableUri": "https://www.youtube.com/watch?v=%[videoId]",
+          "Title": "%[headline]",
+          "Body": "<html><body><h2>%[headline]</h2><p>%[description]</p></body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Elite 85h",
+            "mygroup": "1391",
+            "fileType": "YouTubeVideo",
+            "documentType": "Video",
+            "ytdescription": "%[description]",
+            "ytvideoid": "%[videoId]",
+            "ytthumbnailurl": "https://i.ytimg.com/vi/%[videoId]/mqdefault.jpg",
+            "ytembedplayerhtml": "<iframe width='480' height='270' src='//www.youtube.com/embed/%[videoId]' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          }
+        },
+        {
+          "Method": "GET",
+          "Path": "/bluetoothpairingguides",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "Pairingguides",
+          "Uri": "https://www.jabra.com/pairing/%[platform.label]&mod=%[mymodel]",
+          "ClickableUri": "https://www.jabra.com/pairing/%[platform.label]",
+          "Title": "Pairing guide %[mymodel] - %[platform.label]",
+          "Body": "<html><body><h1>Pairing guide for %[mymodel]</h1><h2><img src='https://www.jabra.com%[platform.icon]' style='margin-right:15px'/>%[platform.label]</h1>          <h3>%[platform.note]</h3>          <hr>          <h2>%[steps[0].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[0].image]' width=100px/><br>%[steps[0].title]<br>          <div >%[steps[0].description]</div></p>          <hr>          <h2>%[steps[1].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[1].image]' width=100px/><br>%[steps[1].title]<br>          <div>%[steps[1].description]</div></p>          <hr>          <h2>%[steps[2].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[2].image]' width=100px/><br>%[steps[2].title]<br>          <div >%[steps[2].description]</div></p>          <hr>          <h2>%[steps[3].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[3].image]' width=100px/><br>%[steps[3].title]<br>          <div >%[steps[3].description]</div></p>  <br><br><br>%[steps[*].title] %[steps[*].description]        </body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Elite 85h",
+            "mygroup": "1391",
+            "fileType": "Pairing Guide",
+            "documentType": "Pairing Guide",
+            "myplatform": "%[platform.label]"
+          }
+        }
+      ]
+    },
+    {
+      "Url": "https://knowledgebaseapi.jabra.com/v1/group/1673",
+      "Endpoints": [
+        
+        {
+          "Method": "GET",
+          "Path": "/frequentlyaskedquestions",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "FAQs",
+          "Uri": "https://www.jabra.com/faq/%[id]&mod=%[mymodel]",
+          "ClickableUri": "https://www.jabra.com/faq/%[id]",
+          "Title": "%[question]",
+          "Body": "<html><body><h2>%[question]</h2><p>%[answer]</p></body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Elite 85t",
+            "mygroup": "1673",
+            "fileType": "FAQ",
+            "documentType": "FAQs",
+            "mytypes": "%[types]",
+            "myreqsoftware": "%[requiredSoftware[*].text"
+          }
+        },
+        {
+          "Method": "GET",
+          "Path": "/videos",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "Videos",
+          "Uri": "https://www.youtube.com/watch?v=%[videoId]&mod=%[mymodel]",
+          "ClickableUri": "https://www.youtube.com/watch?v=%[videoId]",
+          "Title": "%[headline]",
+          "Body": "<html><body><h2>%[headline]</h2><p>%[description]</p></body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Elite 85t",
+            "mygroup": "1673",
+            "fileType": "YouTubeVideo",
+            "documentType": "Video",
+            "ytdescription": "%[description]",
+            "ytvideoid": "%[videoId]",
+            "ytthumbnailurl": "https://i.ytimg.com/vi/%[videoId]/mqdefault.jpg",
+            "ytembedplayerhtml": "<iframe width='480' height='270' src='//www.youtube.com/embed/%[videoId]' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          }
+        },
+        {
+          "Method": "GET",
+          "Path": "/bluetoothpairingguides",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "Pairingguides",
+          "Uri": "https://www.jabra.com/pairing/%[platform.label]&mod=%[mymodel]",
+          "ClickableUri": "https://www.jabra.com/pairing/%[platform.label]",
+          "Title": "Pairing guide %[mymodel] - %[platform.label]",
+          "Body": "<html><body><h1>Pairing guide for %[mymodel]</h1><h2><img src='https://www.jabra.com%[platform.icon]' style='margin-right:15px'/>%[platform.label]</h1>          <h3>%[platform.note]</h3>          <hr>          <h2>%[steps[0].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[0].image]' width=100px/><br>%[steps[0].title]<br>          <div >%[steps[0].description]</div></p>          <hr>          <h2>%[steps[1].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[1].image]' width=100px/><br>%[steps[1].title]<br>          <div>%[steps[1].description]</div></p>          <hr>          <h2>%[steps[2].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[2].image]' width=100px/><br>%[steps[2].title]<br>          <div >%[steps[2].description]</div></p>          <hr>          <h2>%[steps[3].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[3].image]' width=100px/><br>%[steps[3].title]<br>          <div >%[steps[3].description]</div></p>  <br><br><br>%[steps[*].title] %[steps[*].description]        </body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Elite 85t",
+            "mygroup": "1673",
+            "fileType": "Pairing Guide",
+            "documentType": "Pairing Guide",
+            "myplatform": "%[platform.label]"
+          }
+        }
+      ]
+    },
+    {
+      "Url": "https://knowledgebaseapi.jabra.com/v1/group/182",
+      "Endpoints": [
+        
+        {
+          "Method": "GET",
+          "Path": "/frequentlyaskedquestions",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "FAQs",
+          "Uri": "https://www.jabra.com/faq/%[id]&mod=%[mymodel]",
+          "ClickableUri": "https://www.jabra.com/faq/%[id]",
+          "Title": "%[question]",
+          "Body": "<html><body><h2>%[question]</h2><p>%[answer]</p></body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Evolve 65",
+            "mygroup": "182",
+            "fileType": "FAQ",
+            "documentType": "FAQs",
+            "mytypes": "%[types]",
+            "myreqsoftware": "%[requiredSoftware[*].text"
+          }
+        },
+        {
+          "Method": "GET",
+          "Path": "/videos",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "Videos",
+          "Uri": "https://www.youtube.com/watch?v=%[videoId]&mod=%[mymodel]",
+          "ClickableUri": "https://www.youtube.com/watch?v=%[videoId]",
+          "Title": "%[headline]",
+          "Body": "<html><body><h2>%[headline]</h2><p>%[description]</p></body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Evolve 65",
+            "mygroup": "182",
+            "fileType": "YouTubeVideo",
+            "documentType": "Video",
+            "ytdescription": "%[description]",
+            "ytvideoid": "%[videoId]",
+            "ytthumbnailurl": "https://i.ytimg.com/vi/%[videoId]/mqdefault.jpg",
+            "ytembedplayerhtml": "<iframe width='480' height='270' src='//www.youtube.com/embed/%[videoId]' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          }
+        },
+        {
+          "Method": "GET",
+          "Path": "/bluetoothpairingguides",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "Pairingguides",
+          "Uri": "https://www.jabra.com/pairing/%[platform.label]&mod=%[mymodel]",
+          "ClickableUri": "https://www.jabra.com/pairing/%[platform.label]",
+          "Title": "Pairing guide %[mymodel] - %[platform.label]",
+          "Body": "<html><body><h1>Pairing guide for %[mymodel]</h1><h2><img src='https://www.jabra.com%[platform.icon]' style='margin-right:15px'/>%[platform.label]</h1>          <h3>%[platform.note]</h3>          <hr>          <h2>%[steps[0].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[0].image]' width=100px/><br>%[steps[0].title]<br>          <div >%[steps[0].description]</div></p>          <hr>          <h2>%[steps[1].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[1].image]' width=100px/><br>%[steps[1].title]<br>          <div>%[steps[1].description]</div></p>          <hr>          <h2>%[steps[2].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[2].image]' width=100px/><br>%[steps[2].title]<br>          <div >%[steps[2].description]</div></p>          <hr>          <h2>%[steps[3].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[3].image]' width=100px/><br>%[steps[3].title]<br>          <div >%[steps[3].description]</div></p>  <br><br><br>%[steps[*].title] %[steps[*].description]        </body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Evolve 65",
+            "mygroup": "182",
+            "fileType": "Pairing Guide",
+            "documentType": "Pairing Guide",
+            "myplatform": "%[platform.label]"
+          }
+        }
+      ]
+    },
+    {
+      "Url": "https://knowledgebaseapi.jabra.com/v1/group/1155",
+      "Endpoints": [
+        
+        {
+          "Method": "GET",
+          "Path": "/frequentlyaskedquestions",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "FAQs",
+          "Uri": "https://www.jabra.com/faq/%[id]&mod=%[mymodel]",
+          "ClickableUri": "https://www.jabra.com/faq/%[id]",
+          "Title": "%[question]",
+          "Body": "<html><body><h2>%[question]</h2><p>%[answer]</p></body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Evolve 75",
+            "mygroup": "1155",
+            "fileType": "FAQ",
+            "documentType": "FAQs",
+            "mytypes": "%[types]",
+            "myreqsoftware": "%[requiredSoftware[*].text"
+          }
+        },
+        {
+          "Method": "GET",
+          "Path": "/videos",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "Videos",
+          "Uri": "https://www.youtube.com/watch?v=%[videoId]&mod=%[mymodel]",
+          "ClickableUri": "https://www.youtube.com/watch?v=%[videoId]",
+          "Title": "%[headline]",
+          "Body": "<html><body><h2>%[headline]</h2><p>%[description]</p></body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Evolve 75",
+            "mygroup": "1155",
+            "fileType": "YouTubeVideo",
+            "documentType": "Video",
+            "ytdescription": "%[description]",
+            "ytvideoid": "%[videoId]",
+            "ytthumbnailurl": "https://i.ytimg.com/vi/%[videoId]/mqdefault.jpg",
+            "ytembedplayerhtml": "<iframe width='480' height='270' src='//www.youtube.com/embed/%[videoId]' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          }
+        },
+        {
+          "Method": "GET",
+          "Path": "/bluetoothpairingguides",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "Pairingguides",
+          "Uri": "https://www.jabra.com/pairing/%[platform.label]&mod=%[mymodel]",
+          "ClickableUri": "https://www.jabra.com/pairing/%[platform.label]",
+          "Title": "Pairing guide %[mymodel] - %[platform.label]",
+          "Body": "<html><body><h1>Pairing guide for %[mymodel]</h1><h2><img src='https://www.jabra.com%[platform.icon]' style='margin-right:15px'/>%[platform.label]</h1>          <h3>%[platform.note]</h3>          <hr>          <h2>%[steps[0].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[0].image]' width=100px/><br>%[steps[0].title]<br>          <div >%[steps[0].description]</div></p>          <hr>          <h2>%[steps[1].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[1].image]' width=100px/><br>%[steps[1].title]<br>          <div>%[steps[1].description]</div></p>          <hr>          <h2>%[steps[2].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[2].image]' width=100px/><br>%[steps[2].title]<br>          <div >%[steps[2].description]</div></p>          <hr>          <h2>%[steps[3].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[3].image]' width=100px/><br>%[steps[3].title]<br>          <div >%[steps[3].description]</div></p>  <br><br><br>%[steps[*].title] %[steps[*].description]        </body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Evolve 75",
+            "mygroup": "1155",
+            "fileType": "Pairing Guide",
+            "documentType": "Pairing Guide",
+            "myplatform": "%[platform.label]"
+          }
+        }
+      ]
+    },
+    {
+      "Url": "https://knowledgebaseapi.jabra.com/v1/group/1240",
+      "Endpoints": [
+        
+        {
+          "Method": "GET",
+          "Path": "/frequentlyaskedquestions",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "FAQs",
+          "Uri": "https://www.jabra.com/faq/%[id]&mod=%[mymodel]",
+          "ClickableUri": "https://www.jabra.com/faq/%[id]",
+          "Title": "%[question]",
+          "Body": "<html><body><h2>%[question]</h2><p>%[answer]</p></body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Engage 65",
+            "mygroup": "1240",
+            "fileType": "FAQ",
+            "documentType": "FAQs",
+            "mytypes": "%[types]",
+            "myreqsoftware": "%[requiredSoftware[*].text"
+          }
+        },
+        {
+          "Method": "GET",
+          "Path": "/videos",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "Videos",
+          "Uri": "https://www.youtube.com/watch?v=%[videoId]&mod=%[mymodel]",
+          "ClickableUri": "https://www.youtube.com/watch?v=%[videoId]",
+          "Title": "%[headline]",
+          "Body": "<html><body><h2>%[headline]</h2><p>%[description]</p></body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Engage 65",
+            "mygroup": "1240",
+            "fileType": "YouTubeVideo",
+            "documentType": "Video",
+            "ytdescription": "%[description]",
+            "ytvideoid": "%[videoId]",
+            "ytthumbnailurl": "https://i.ytimg.com/vi/%[videoId]/mqdefault.jpg",
+            "ytembedplayerhtml": "<iframe width='480' height='270' src='//www.youtube.com/embed/%[videoId]' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          }
+        },
+        {
+          "Method": "GET",
+          "Path": "/bluetoothpairingguides",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "Pairingguides",
+          "Uri": "https://www.jabra.com/pairing/%[platform.label]&mod=%[mymodel]",
+          "ClickableUri": "https://www.jabra.com/pairing/%[platform.label]",
+          "Title": "Pairing guide %[mymodel] - %[platform.label]",
+          "Body": "<html><body><h1>Pairing guide for %[mymodel]</h1><h2><img src='https://www.jabra.com%[platform.icon]' style='margin-right:15px'/>%[platform.label]</h1>          <h3>%[platform.note]</h3>          <hr>          <h2>%[steps[0].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[0].image]' width=100px/><br>%[steps[0].title]<br>          <div >%[steps[0].description]</div></p>          <hr>          <h2>%[steps[1].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[1].image]' width=100px/><br>%[steps[1].title]<br>          <div>%[steps[1].description]</div></p>          <hr>          <h2>%[steps[2].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[2].image]' width=100px/><br>%[steps[2].title]<br>          <div >%[steps[2].description]</div></p>          <hr>          <h2>%[steps[3].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[3].image]' width=100px/><br>%[steps[3].title]<br>          <div >%[steps[3].description]</div></p>  <br><br><br>%[steps[*].title] %[steps[*].description]        </body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Engage 65",
+            "mygroup": "1240",
+            "fileType": "Pairing Guide",
+            "documentType": "Pairing Guide",
+            "myplatform": "%[platform.label]"
+          }
+        }
+      ]
+    },
+    {
+      "Url": "https://knowledgebaseapi.jabra.com/v1/group/1243",
+      "Endpoints": [
+        
+        {
+          "Method": "GET",
+          "Path": "/frequentlyaskedquestions",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "FAQs",
+          "Uri": "https://www.jabra.com/faq/%[id]&mod=%[mymodel]",
+          "ClickableUri": "https://www.jabra.com/faq/%[id]",
+          "Title": "%[question]",
+          "Body": "<html><body><h2>%[question]</h2><p>%[answer]</p></body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Engage 75",
+            "mygroup": "1243",
+            "fileType": "FAQ",
+            "documentType": "FAQs",
+            "mytypes": "%[types]",
+            "myreqsoftware": "%[requiredSoftware[*].text"
+          }
+        },
+        {
+          "Method": "GET",
+          "Path": "/videos",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "Videos",
+          "Uri": "https://www.youtube.com/watch?v=%[videoId]&mod=%[mymodel]",
+          "ClickableUri": "https://www.youtube.com/watch?v=%[videoId]",
+          "Title": "%[headline]",
+          "Body": "<html><body><h2>%[headline]</h2><p>%[description]</p></body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Engage 75",
+            "mygroup": "1243",
+            "fileType": "YouTubeVideo",
+            "documentType": "Video",
+            "ytdescription": "%[description]",
+            "ytvideoid": "%[videoId]",
+            "ytthumbnailurl": "https://i.ytimg.com/vi/%[videoId]/mqdefault.jpg",
+            "ytembedplayerhtml": "<iframe width='480' height='270' src='//www.youtube.com/embed/%[videoId]' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          }
+        },
+        {
+          "Method": "GET",
+          "Path": "/bluetoothpairingguides",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "Pairingguides",
+          "Uri": "https://www.jabra.com/pairing/%[platform.label]&mod=%[mymodel]",
+          "ClickableUri": "https://www.jabra.com/pairing/%[platform.label]",
+          "Title": "Pairing guide %[mymodel] - %[platform.label]",
+          "Body": "<html><body><h1>Pairing guide for %[mymodel]</h1><h2><img src='https://www.jabra.com%[platform.icon]' style='margin-right:15px'/>%[platform.label]</h1>          <h3>%[platform.note]</h3>          <hr>          <h2>%[steps[0].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[0].image]' width=100px/><br>%[steps[0].title]<br>          <div >%[steps[0].description]</div></p>          <hr>          <h2>%[steps[1].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[1].image]' width=100px/><br>%[steps[1].title]<br>          <div>%[steps[1].description]</div></p>          <hr>          <h2>%[steps[2].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[2].image]' width=100px/><br>%[steps[2].title]<br>          <div >%[steps[2].description]</div></p>          <hr>          <h2>%[steps[3].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[3].image]' width=100px/><br>%[steps[3].title]<br>          <div >%[steps[3].description]</div></p>  <br><br><br>%[steps[*].title] %[steps[*].description]        </body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Engage 75",
+            "mygroup": "1243",
+            "fileType": "Pairing Guide",
+            "documentType": "Pairing Guide",
+            "myplatform": "%[platform.label]"
+          }
+        }
+      ]
+    },
+    {
+      "Url": "https://knowledgebaseapi.jabra.com/v1/group/1576",
+      "Endpoints": [
+        
+        {
+          "Method": "GET",
+          "Path": "/frequentlyaskedquestions",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "FAQs",
+          "Uri": "https://www.jabra.com/faq/%[id]&mod=%[mymodel]",
+          "ClickableUri": "https://www.jabra.com/faq/%[id]",
+          "Title": "%[question]",
+          "Body": "<html><body><h2>%[question]</h2><p>%[answer]</p></body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Evolve2 65",
+            "mygroup": "1576",
+            "fileType": "FAQ",
+            "documentType": "FAQs",
+            "mytypes": "%[types]",
+            "myreqsoftware": "%[requiredSoftware[*].text"
+          }
+        },
+        {
+          "Method": "GET",
+          "Path": "/videos",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "Videos",
+          "Uri": "https://www.youtube.com/watch?v=%[videoId]&mod=%[mymodel]",
+          "ClickableUri": "https://www.youtube.com/watch?v=%[videoId]",
+          "Title": "%[headline]",
+          "Body": "<html><body><h2>%[headline]</h2><p>%[description]</p></body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Evolve2 65",
+            "mygroup": "1576",
+            "fileType": "YouTubeVideo",
+            "documentType": "Video",
+            "ytdescription": "%[description]",
+            "ytvideoid": "%[videoId]",
+            "ytthumbnailurl": "https://i.ytimg.com/vi/%[videoId]/mqdefault.jpg",
+            "ytembedplayerhtml": "<iframe width='480' height='270' src='//www.youtube.com/embed/%[videoId]' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          }
+        },
+        {
+          "Method": "GET",
+          "Path": "/bluetoothpairingguides",
+          "QueryParameters": {
+            "api_key": "@ApiKey"
+          },
+          "ItemPath": "",
+          "ItemType": "Pairingguides",
+          "Uri": "https://www.jabra.com/pairing/%[platform.label]&mod=%[mymodel]",
+          "ClickableUri": "https://www.jabra.com/pairing/%[platform.label]",
+          "Title": "Pairing guide %[mymodel] - %[platform.label]",
+          "Body": "<html><body><h1>Pairing guide for %[mymodel]</h1><h2><img src='https://www.jabra.com%[platform.icon]' style='margin-right:15px'/>%[platform.label]</h1>          <h3>%[platform.note]</h3>          <hr>          <h2>%[steps[0].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[0].image]' width=100px/><br>%[steps[0].title]<br>          <div >%[steps[0].description]</div></p>          <hr>          <h2>%[steps[1].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[1].image]' width=100px/><br>%[steps[1].title]<br>          <div>%[steps[1].description]</div></p>          <hr>          <h2>%[steps[2].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[2].image]' width=100px/><br>%[steps[2].title]<br>          <div >%[steps[2].description]</div></p>          <hr>          <h2>%[steps[3].name]</h2>          <p>          <img src='https://www.jabra.com%[steps[3].image]' width=100px/><br>%[steps[3].title]<br>          <div >%[steps[3].description]</div></p>  <br><br><br>%[steps[*].title] %[steps[*].description]        </body></html>",
+          "IsBinaryBody": true,
+          "Metadata": {
+            "mymodel": "Evolve2 65",
+            "mygroup": "1576",
+            "fileType": "Pairing Guide",
+            "documentType": "Pairing Guide",
+            "myplatform": "%[platform.label]"
+          }
+        }
+      ]
+    }
+  ]
+}
