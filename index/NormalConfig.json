@@ -23,7 +23,7 @@
             "fileType": "FAQ",
             "documentType": "FAQs",
             "mytypes": "%[types]",
-            "myreqsoftware": "%[requiredSoftware[*].text"
+            "myreqsoftware": "%[requiredSoftware[*].text]"
           }
         },
         {
@@ -96,7 +96,7 @@
             "fileType": "FAQ",
             "documentType": "FAQs",
             "mytypes": "%[types]",
-            "myreqsoftware": "%[requiredSoftware[*].text"
+            "myreqsoftware": "%[requiredSoftware[*].text]"
           }
         },
         {
@@ -169,7 +169,7 @@
             "fileType": "FAQ",
             "documentType": "FAQs",
             "mytypes": "%[types]",
-            "myreqsoftware": "%[requiredSoftware[*].text"
+            "myreqsoftware": "%[requiredSoftware[*].text]"
           }
         },
         {
@@ -242,7 +242,7 @@
             "fileType": "FAQ",
             "documentType": "FAQs",
             "mytypes": "%[types]",
-            "myreqsoftware": "%[requiredSoftware[*].text"
+            "myreqsoftware": "%[requiredSoftware[*].text]"
           }
         },
         {
@@ -315,7 +315,7 @@
             "fileType": "FAQ",
             "documentType": "FAQs",
             "mytypes": "%[types]",
-            "myreqsoftware": "%[requiredSoftware[*].text"
+            "myreqsoftware": "%[requiredSoftware[*].text]"
           }
         },
         {
@@ -388,7 +388,7 @@
             "fileType": "FAQ",
             "documentType": "FAQs",
             "mytypes": "%[types]",
-            "myreqsoftware": "%[requiredSoftware[*].text"
+            "myreqsoftware": "%[requiredSoftware[*].text]"
           }
         },
         {
@@ -461,7 +461,7 @@
             "fileType": "FAQ",
             "documentType": "FAQs",
             "mytypes": "%[types]",
-            "myreqsoftware": "%[requiredSoftware[*].text"
+            "myreqsoftware": "%[requiredSoftware[*].text]"
           }
         },
         {
@@ -534,7 +534,7 @@
             "fileType": "FAQ",
             "documentType": "FAQs",
             "mytypes": "%[types]",
-            "myreqsoftware": "%[requiredSoftware[*].text"
+            "myreqsoftware": "%[requiredSoftware[*].text]"
           }
         },
         {
@@ -607,7 +607,7 @@
             "fileType": "FAQ",
             "documentType": "FAQs",
             "mytypes": "%[types]",
-            "myreqsoftware": "%[requiredSoftware[*].text"
+            "myreqsoftware": "%[requiredSoftware[*].text]"
           }
         },
         {
@@ -680,7 +680,7 @@
             "fileType": "FAQ",
             "documentType": "FAQs",
             "mytypes": "%[types]",
-            "myreqsoftware": "%[requiredSoftware[*].text"
+            "myreqsoftware": "%[requiredSoftware[*].text]"
           }
         },
         {
