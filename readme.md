@@ -1,5 +1,10 @@
 # Indexing Jabra KB Using the Generic REST API Connector
 
+> **:warning: Experimental, use at your own risk.**
+> 
+> This repository is shared to be helpful and for informational purposes (not officially supported, not for production use).  
+> For assistance, _refrain from contacting Coveo support_ and use Github issues instead.
+
 ## Use Case
 This shows how to index the KB articles from Jabra.
 
